@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 
 function App() {
-    const [isLoggedIn, setLoggedIn] = useState(false);
+    const [isLoggedIn, setLoggedIn] = useState(true);
   
     const handleLogin = () => {
       // Perform login logic and set the isLoggedIn state to true
